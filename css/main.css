@@ -118,7 +118,7 @@ h5, h6          { font-weight: bolder }
         left: 0;
         width: 250px;
         min-height: 100%;
-        padding: 500px 0 0 50px;
+        padding: 0 0 0 50px;
         background: #ffffff; 
         float: left;
         overflow: hidden;
