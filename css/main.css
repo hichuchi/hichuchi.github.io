@@ -73,9 +73,6 @@ body{
     margin: 0 auto;
 }
 
-.contact{
-    margin-top: 50px;
-}
 
 header ul.social li a,
 .main .work a .caption,
@@ -147,6 +144,10 @@ h5, h6          { font-weight: bolder }
         font-size: 1.5em;
     }
 
+    .contact{
+    margin-top: 30px;
+    }
+
     header nav ul{
         display: block;
         overflow: hidden;
@@ -165,6 +166,10 @@ h5, h6          { font-weight: bolder }
         font-size: 14px;
         text-decoration: none;
         letter-spacing: 1px;
+    }
+
+    header nav ul .contact{
+    margin-top: 30px;
     }
 
     header nav ul li a:hover,
@@ -351,7 +356,7 @@ h5, h6          { font-weight: bolder }
 }
 
 .main .work a:hover .caption{
-    opacity: 1;
+    opacity: 0.7;
 }
 
 .work .caption .work_title{
