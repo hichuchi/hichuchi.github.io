@@ -1,7 +1,12 @@
 # Header
 menu:
-  Home: /
-  Archives: /archives
+  Design: /
+  Animation: /animation
+  Others: /others
+
+menund:
+  About: /about
+  Contact: /contact
 
 # Default post title
 default_post_title: Untitled
@@ -12,13 +17,15 @@ default_cover_index: "http://placehold.it/450x450"
 # Default post cover index page
 default_cover_detail: "http://placehold.it/1300x500"
 
+
+
 # Comments. Choose one by filling up the information
 comments:
   # Disqus comments
-  disqus_shortname:
+  #disqus_shortname:
   # Facebook comments
   facebook:
-    appid:
+    appid: 123456789012345
     comment_count: 5
     comment_colorscheme: light
 
