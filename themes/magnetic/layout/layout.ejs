@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<!-- Head tag -->
+<%- partial('_partial/head') %>
+
+<body>
+
+<!-- Menu -->
+<%- partial('_partial/menu') %>
+
+<!-- Main Content -->
+<!-- body -->
+
+<% if(page.path.indexOf('animation')==-1){ %>
+    <% if(page.path.indexOf('others')==-1){ %>
+        <%- body %>
+    <% }else{ %>
+    <%- partial('_partial/others', {post: page})%>
+    <% } %>
+<% }else{ %>
+<%- partial('_partial/animation', {post: page})%>
+<% } %>
+
+
+<!-- After footer scripts -->
+<%- partial('_partial/after-footer') %>
+
+</body>
+
+</html>

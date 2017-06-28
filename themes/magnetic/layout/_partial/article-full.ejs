@@ -1,0 +1,37 @@
+
+<section class="main clearfix" id="ani">
+
+    <div class="sideshadow"></div>
+    <div class="lightbox">
+
+        <img src="<%= item.head_imgs %>" alt="">
+
+        <div class="title" style="background-color:<%= item.bgcolor %>" >
+
+
+
+            <div class="txt">
+                <a class="txt-title" style="color:<%= item.font_color_o %>;text-shadow:<%= item.shadow %>" ><%- item.content_title %></a>
+                </br>
+
+                <a class="txt-team" style="color:<%= item.font_color_p %>" ><%- item.content_team %></a>
+                </br></br></br></br></br></br>
+        
+                <a class="txt-question" style="color:<%= item.font_color_o %>" ><%- item.content_question %></a>
+                </br></br>
+                <p class="txt-explain" style="color:<%= item.font_color_p %>"><%- item.content_explain %></p>
+            </div>
+
+            <div class="txt-img">
+
+                <% for (var i in item.imgs){ %>
+                    <img src="<%= item.imgs[i] %>" class="img-content" alt="">
+                <% } %>
+
+            </div>
+
+        </div>
+
+    </div>
+   
+</section>

@@ -1,0 +1,41 @@
+# Header
+menu:
+  Design: /
+  Animation: /animation
+  Others: /others
+
+menund:
+  About: /about
+  Contact: /contact
+
+# Default post title
+default_post_title: Untitled
+
+# Default post cover index page
+default_cover_index: "http://placehold.it/450x450"
+
+# Default post cover index page
+default_cover_detail: "http://placehold.it/1300x500"
+
+
+
+# Comments. Choose one by filling up the information
+comments:
+  # Disqus comments
+  #disqus_shortname:
+  # Facebook comments
+  facebook:
+    appid: 123456789012345
+    comment_count: 5
+    comment_colorscheme: light
+
+# Google Analytics Tracking ID
+google_analytics:
+
+# Social Accounts
+twitter_url:
+facebook_url: https://www.facebook.com/
+behance_url: https://www.behance.net/thunderstorming
+googleplus_url: https://plus.google.com
+dribble_url: https://dribbble.com
+rss_url:
