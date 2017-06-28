@@ -248,14 +248,18 @@ a.txt-team{
     width: 38em;
     margin: 0 auto; 
 }
-
-.download a{
+div .download {
     display: block; 
+    padding-top: 60px;
+    padding-bottom: 66px;
+}
+.download a{
+    /*display: block; */
     margin: 46px,auto;
     color: blue;
     font-size: larger;
-    padding-top: 60px;
-    padding-bottom: 70px;
+    /*padding-top: 60px;
+    padding-bottom: 70px;*/
 }
 
 
