@@ -2,10 +2,10 @@
 menu:
   Design: /
   Animation: /animation
-  Others: /others
+  Photo: /photo
 
 menund:
-  About: /about
+  Note: /note
   Contact: /contact
 
 # Default post title
@@ -14,8 +14,6 @@ default_post_title: Untitled
 # Default post cover index page
 default_cover_index: "http://placehold.it/450x450"
 
-# Default post cover index page
-default_cover_detail: "http://placehold.it/1300x500"
 
 
 

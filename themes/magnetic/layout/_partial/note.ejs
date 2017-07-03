@@ -1,0 +1,133 @@
+
+ <head>
+  <title> 文章内容展开和收起 </title>
+  <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+    <style type="text/css">
+        .news {
+            width:65%;
+            position:relative;
+            margin: 0 auto;   
+        }
+        .news .news-title {overflow:hidden;position:relative;}
+        .news #showOrHide1 {position:absolute; top:31%; right:10px;}
+        .news #showOrHide2 {position:absolute; top:31%; right:10px;}
+        .note {
+            margin: 0 auto;
+        }
+    </style>
+    <script type="text/javascript">
+        window.onload =function(){
+            document.getElementById("showOrHidea").onclick = function(){
+                var news = document.getElementById("contenta");
+                if(typeof(news) != "undefined" ){
+                    news.style.display = (news.style.display.toLowerCase()=="none") ? "":"none";
+                    this.innerHTML = (news.style.display.toLowerCase()=="none") ? "↓展开全文" : "↑收起全文";
+                }
+            };
+            document.getElementById("showOrHideb").onclick = function(){
+                var news = document.getElementById("contentb");
+                if(typeof(news) != "undefined" ){
+                    news.style.display = (news.style.display.toLowerCase()=="none") ? "":"none";
+                    this.innerHTML = (news.style.display.toLowerCase()=="none") ? "↓展开全文" : "↑收起全文";
+                }
+            };
+        }
+
+    </script>
+ </head>
+
+ <div class="sideshadow"></div>
+ <section class="main clearfix" >
+<!--1-->
+        <div class="note">
+            <div class="news">
+                <div class="news-title">
+
+                    <span style="color:#000000;">
+                    <span style="font-family:futuranormal;">
+                        <span style="font-size:40px;line-height:2.1em;">
+                            
+                            What to Watch for in NBA Free Agency
+                        </span>
+                    </span>
+                    </span>
+                    <a href="javascript:;" id="showOrHidea">↑收起全文</a>
+
+                    </br>
+
+                    <span style="color:#999;">
+                    <span style="font-family:futuralight;">
+                        <span style="font-size:20px;line-height:1.2em;">
+                            
+                            All eyes are on the fate of Lob City and Gordon Hayward, but there are plenty of other players who could make significant changes to the league’s complexion
+
+                        </span>
+                    </span>
+                    </span>
+
+                </div>
+                </br>
+                <div id="contenta">
+                    <span style="color:rgba(0,0,0,.8)">
+                    <span style="font-family:futuralight;">
+                        <span style="font-size:19px;line-height:1.4em;  ">
+                            
+                        This year’s free-agency period is the calm between two storms. There are no potential signings that could change the balance of power in the NBA in the way Kevin Durant did last summer or LeBron James could next year. Durant is technically on the market again this season, but he’s going to re-sign with the Warriors, as will Steph Curry. The only question is whether either takes enough of a pay cut to help Golden State re-sign Andre Iguodala, whose defensive versatility, playmaking, and veteran presence in the locker room is a huge part of what makes the Warriors tick. The luxury tax bill coming the Warriors’ way might end up breaking them apart, but that’s still a few years down the line.
+                        For now, the rest of the league has to make decisions in the shadow of the Goliath in Golden State. With the exception of the Cavs, who have the threat of LeBron’s departure hanging over their heads, every other team has to ask themselves how much they should invest in the present if their chances of winning a championship are a few years off. Teams with superstars in their prime like the Spurs and the Rockets won’t back off the throttle, but franchises like the Celtics with the option to build a contender for 2020 will have to think long and hard about how much of their future to sacrifice for the now. While Durant and Curry both have lengthy injury histories, Golden State conceivably has enough depth and star power to survive without one of them for extended time, even if another superteam should emerge.
+
+                        </span>
+                    </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+ </section>
+<!--2-->
+ <section class="main clearfix" >
+        <div class="note">
+            <div class="news">
+                <div class="news-title">
+
+                    <span style="color:#000000;">
+                    <span style="font-family:futuranormal;">
+                        <span style="font-size:40px;line-height:2.1em;">
+                            
+                            What to Watch for in NBA Free Agency
+                        </span>
+                    </span>
+                    
+                    </span>
+                        <a href="javascript:;" id="showOrHideb">↑收起全文</a>
+
+                    </br>
+
+                    <span style="color:#999;">
+                    <span style="font-family:futuralight;">
+                        <span style="font-size:20px;line-height:1.2em;">
+                            
+                            All eyes are on the fate of Lob City and Gordon Hayward, but there are plenty of other players who could make significant changes to the league’s complexion
+
+                        </span>
+                    </span>
+                    </span>
+
+                </div>
+                </br>
+                <div id="contentb">
+                    <span style="color:rgba(0,0,0,.8)">
+                    <span style="font-family:futuralight;">
+                        <span style="font-size:19px;line-height:1.4em;  ">
+                            
+                        This year’s free-agency period is the calm between two storms. There are no potential signings that could change the balance of power in the NBA in the way Kevin Durant did last summer or LeBron James could next year. Durant is technically on the market again this season, but he’s going to re-sign with the Warriors, as will Steph Curry. The only question is whether either takes enough of a pay cut to help Golden State re-sign Andre Iguodala, whose defensive versatility, playmaking, and veteran presence in the locker room is a huge part of what makes the Warriors tick. The luxury tax bill coming the Warriors’ way might end up breaking them apart, but that’s still a few years down the line.
+                        For now, the rest of the league has to make decisions in the shadow of the Goliath in Golden State. With the exception of the Cavs, who have the threat of LeBron’s departure hanging over their heads, every other team has to ask themselves how much they should invest in the present if their chances of winning a championship are a few years off. Teams with superstars in their prime like the Spurs and the Rockets won’t back off the throttle, but franchises like the Celtics with the option to build a contender for 2020 will have to think long and hard about how much of their future to sacrifice for the now. While Durant and Curry both have lengthy injury histories, Golden State conceivably has enough depth and star power to survive without one of them for extended time, even if another superteam should emerge.
+
+                        </span>
+                    </span>
+                    </span>
+                </div>
+            </div>
+        </div>
+ </section>
+

@@ -13,11 +13,19 @@
 <!-- body -->
 
 <% if(page.path.indexOf('animation')==-1){ %>
-    <% if(page.path.indexOf('others')==-1){ %>
-        <%- body %>
-    <% }else{ %>
-    <%- partial('_partial/others', {post: page})%>
-    <% } %>
+    <% if(page.path.indexOf('photo')==-1){ %>
+        <% if(page.path.indexOf('note')==-1){ %>
+            <% if(page.path.indexOf('contact')==-1){ %>
+                <%- body %>
+            <% }else{ %>
+            <%- partial('_partial/contact', {post: page})%>
+            <% } %>
+        <% }else{ %>
+        <%- partial('_partial/note', {post: page})%>
+        <% } %>
+     <% }else{ %>
+    <%- partial('_partial/photo', {post: page})%>
+    <% } %>      
 <% }else{ %>
 <%- partial('_partial/animation', {post: page})%>
 <% } %>
