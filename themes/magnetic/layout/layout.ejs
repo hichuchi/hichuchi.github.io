@@ -15,10 +15,10 @@
 <% if(page.path.indexOf('animation')==-1){ %>
     <% if(page.path.indexOf('photo')==-1){ %>
         <% if(page.path.indexOf('note')==-1){ %>
-            <% if(page.path.indexOf('contact')==-1){ %>
+            <% if(page.path.indexOf('about')==-1){ %>
                 <%- body %>
             <% }else{ %>
-            <%- partial('_partial/contact', {post: page})%>
+            <%- partial('_partial/about', {post: page})%>
             <% } %>
         <% }else{ %>
         <%- partial('_partial/note', {post: page})%>

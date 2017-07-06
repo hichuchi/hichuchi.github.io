@@ -6,7 +6,7 @@ menu:
 
 menund:
   Note: /note
-  Contact: /contact
+  About: /about
 
 # Default post title
 default_post_title: Untitled
@@ -33,7 +33,7 @@ google_analytics:
 # Social Accounts
 twitter_url:
 facebook_url: https://www.facebook.com/
-behance_url: https://www.behance.net/thunderstorming
+email_url: mailto:zhukileiyu@gmail.com
 googleplus_url: https://plus.google.com
 dribble_url: https://dribbble.com
 rss_url:

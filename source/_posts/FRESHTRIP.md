@@ -2,7 +2,7 @@
 title: FRESHTRIP
 date: 2017-06-09 00:41:40
 tags:
-cover_index: "http://opp49kao3.bkt.clouddn.com/fresh.jpg"
+cover_index: "http://opp49kao3.bkt.clouddn.com/image/jpg/fresh_index.jpg"
 imgs: [ http://opp49kao3.bkt.clouddn.com/image/jpg/freshtrip001.jpg,
         http://opp49kao3.bkt.clouddn.com/image/jpg/freshtrip002.jpg,
         http://opp49kao3.bkt.clouddn.com/image/jpg/freshtrip003.jpg,
