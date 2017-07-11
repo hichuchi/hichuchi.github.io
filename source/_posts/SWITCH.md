@@ -1,8 +1,8 @@
 ---
-title: SWITCH
+title: Switch
 date: 2017-05-09 01:06:34
 tags:
-cover_index: "http://opp49kao3.bkt.clouddn.com/switch.jpg"
+cover_index: "http://opp49kao3.bkt.clouddn.com/image/jpg/switch_index.jpg"
 imgs: [ http://opp49kao3.bkt.clouddn.com/image/jpg/switch001.jpg,
         http://opp49kao3.bkt.clouddn.com/image/jpg/switch002.jpg,
         http://opp49kao3.bkt.clouddn.com/image/jpg/switch003.jpg,

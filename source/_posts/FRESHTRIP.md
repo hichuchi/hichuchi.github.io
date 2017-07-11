@@ -1,5 +1,5 @@
 ---
-title: FRESHTRIP
+title: Freshtrip
 date: 2017-06-09 00:41:40
 tags:
 cover_index: "http://opp49kao3.bkt.clouddn.com/image/jpg/fresh_index.jpg"
