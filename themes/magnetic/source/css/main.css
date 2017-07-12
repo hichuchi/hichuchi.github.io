@@ -191,6 +191,7 @@ div .download {
 
 
 
+
 /*  Header  */
 @media (min-width:1023px){
     .sideshadow{
@@ -412,6 +413,32 @@ div .download {
     #menu_icon,
     .close_menu{
         display: none;
+    }
+
+    .note_title{
+        font-size: 40px;
+        line-height: 2.1em
+    }
+    .note_exp{
+        font-size: 20px;
+        line-height: 1.2em
+    }
+    #contenta span{
+        color:rgba(0,0,0,.8);
+        font-family:futuralight;
+        font-size:19px;
+        line-height:1.8em;
+    }
+    #contentb span{
+        color:rgba(0,0,0,.8);
+        font-family:futuralight;
+        font-size:19px;
+        line-height:1.8em;
+    }
+    .news {
+            width:65%;
+            position:relative;
+            margin: 0 auto;   
     }
 
 }
@@ -940,9 +967,59 @@ div .download {
         margin-left:-30px;
         margin-top:10px;
     }
+    .note_title{
+        font-size: 20px;
+        line-height: 1.5em
+    }
+    .note_exp{
+        font-size: 10px;
+        line-height: 1.2em
+    }
+    #contenta span{
+        color:rgba(0,0,0,.8);
+        font-family:futuralight;
+        font-size:12px;
+        line-height:1.8em;
+    }
+    #contentb span{
+        color:rgba(0,0,0,.8);
+        font-family:futuralight;
+        font-size:12px;
+        line-height:1.8em;
+    }
+    .news {
+        width:80%;
+        position:relative;
+        margin: 0 auto;   
+    }
 }
 
 @media (max-width:550px){
+    .note_title{
+        font-size: 20px;
+        line-height: 1.5em
+    }
+    .note_exp{
+        font-size: 10px;
+        line-height: 1.2em
+    }
+    #contenta span{
+        color:rgba(0,0,0,.8);
+        font-family:futuralight;
+        font-size:12px;
+        line-height:1.8em;
+    }
+    #contentb span{
+        color:rgba(0,0,0,.8);
+        font-family:futuralight;
+        font-size:12px;
+        line-height:1.8em;
+    }
+    .news {
+        width:80%;
+        position:relative;
+        margin: 0 auto;   
+    }
     header{
         font-size: 105%;
     }
