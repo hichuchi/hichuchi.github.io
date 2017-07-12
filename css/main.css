@@ -1,26 +1,5 @@
-/*
 
-    Template Author : pixelhint.com
-    Author Email    : contact@pixelhint.com
-    Template Name   : Magnetic
-    
-    
-    *****************************************
-    
-    
-    - Fonts
-    - General CSS
-    - Header
-    - Home/portfolio 
-    - Inner page 
-    - Map/Contact page  
-    - Tooltip 
-    - Responsive code
-  
-    
-*/
-
-
+/*  canyuseeme */
 
 /*  Fonts  */
 @font-face {
@@ -194,60 +173,8 @@ h5, h6          { font-weight: bolder }
     padding-right: 0;
     padding-top: 0;
 }
-.sideshadow{
-    position: absolute;
-    left:0px;
-    top:0px;
-    width:234px;
-    height: 100%;
-    box-shadow: 1px 0 6px 0 rgba(0,0,0,0.05);
-}
-.txt{
-    padding-top: 4%;
-}
-.txt a{
-    color: white;
-    text-align: center;
 
-}
-.txt-title{
-    font-family: futura;
-    font-size: 36px;
-    letter-spacing: 4px;
-    line-height: 200%;
-    text-align: center;
-}
-.txt-img{
-    padding-top: 120px;
-}
-a.txt-team{
-    /*color: rgba(255,255,255,0.8);*/
-    font-style: italic;
-    font-family:'Times New Roman', Times, serif;
-    /*font-weight: lighter;*/
-    font-size: 12px;
-    letter-spacing: 2px;
-    line-height: 290%;
-    text-align: center;
-}
-.txt-question{
-    font-family: futuramedium;
-    font-weight: 500;
-    font-size: 18px;
-    letter-spacing: 1.2px;
-    line-height: 200%;
-    text-align: center;
-}
-.txt-explain{
-    font-family: futuralight;
-    /*color: rgba(255,255,255,0.8);*/
-    font-size: 15px;
-    letter-spacing: 0.6px;
-    line-height: 159%;
-    word-wrap: break-word;
-    width: 38em;
-    margin: 0 auto; 
-}
+
 div .download {
     display: block; 
     padding-top: 60px;
@@ -266,6 +193,64 @@ div .download {
 
 /*  Header  */
 @media (min-width:1023px){
+    .sideshadow{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:234px;
+    height: 100%;
+    box-shadow: 1px 0 6px 0 rgba(0,0,0,0.05);
+    }
+    .txt{
+    padding-top: 4%;
+    }
+    .txt a{
+        color: white;
+        text-align: center;
+
+    }
+    .txt-title{
+        font-family: futura;
+        font-size: 36px;
+        letter-spacing: 4px;
+        line-height: 200%;
+        text-align: center;
+    }
+    .txt-img{
+        padding-top: 120px;
+    }
+    a.txt-team{
+        /*color: rgba(255,255,255,0.8);*/
+        font-style: italic;
+        font-family:'Times New Roman', Times, serif;
+        /*font-weight: lighter;*/
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 290%;
+        text-align: center;
+    }
+    .txt-question{
+        font-family: futuramedium;
+        font-weight: 500;
+        font-size: 18px;
+        letter-spacing: 1.2px;
+        line-height: 200%;
+        text-align: center;
+    }
+    .txt-explain{
+        font-family: futuralight;
+        /*color: rgba(255,255,255,0.8);*/
+        font-size: 15px;
+        letter-spacing: 0.6px;
+        line-height: 159%;
+        word-wrap: break-word;
+        width: 38em;
+        margin: 0 auto; 
+    }
+    .lomo-img{
+        margin-right:220px;
+        margin-top:20px;
+    }
     header{
         display: block;
         position: fixed;
@@ -392,8 +377,8 @@ div .download {
         color: #454545;
     }
 
-    header ul.social li a.behance,
-    header ul.social li a.behance:hover{
+    header ul.social li a.email,
+    header ul.social li a.email:hover{
         background-position: -62px 0;
     }
 
@@ -886,13 +871,74 @@ div .download {
         display: block;
     }
 
-    .main .work{
+    /*.main .work{
         width: 50%;
-    }
+    }*/
     .main{
         width: 100%;
         position: relative;
         padding-left: 0;
+        padding-right: 0;
+    }
+    .txt{
+    padding-top: 4%;
+    margin: 0 5%;
+    }           
+    .txt-title{
+    font-family: futura;
+    font-size: 20px;
+    letter-spacing: 4px;
+    line-height: 200%;
+    text-align: center;
+    }
+
+    a.txt-team{
+        /*color: rgba(255,255,255,0.8);*/
+        font-style: italic;
+        font-family:'Times New Roman', Times, serif;
+        /*font-weight: lighter;*/
+        font-size: 12px;
+        letter-spacing: 2px;
+        line-height: 160%;
+        text-align: center;
+    }
+    .txt-question{
+        font-family: futuramedium;
+        font-weight: 500;
+        font-size: 14px;
+        letter-spacing: 1.2px;
+        text-align: center;
+
+    }
+    .txt-explain{
+        font-family: futuralight;
+        /*color: rgba(255,255,255,0.8);*/
+        font-size: 12px;
+        letter-spacing: 0.6px;
+        line-height: 159%;
+        word-wrap: break-word;
+    }
+    .txt-img{
+    padding-top: 30px;
+    }
+    .img-content{
+    width: 100%;
+    max-width: 1400px;
+    }
+    .sideshadow{
+    position: absolute;
+    left:0px;
+    top:0px;
+    width:234px;
+    height: 100%;
+    box-shadow: 0px 0 0px 0 #fff;
+    }
+    #ani{
+    margin: 0 30px;
+    }
+    .lomo-img{
+        margin-left:-30px;
+        margin-top:10px;
     }
 }
 
@@ -918,6 +964,12 @@ div .download {
         -webkit-background-clip: text;
         -moz-background-clip: text;
         background-clip: text;
+    }
+    .main{
+        width: 100%;
+        position: relative;
+        padding-left: 0;
+        padding-right: 0;
     }
 }
 
