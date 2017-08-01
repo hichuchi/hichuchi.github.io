@@ -155,6 +155,10 @@ h5, h6          { font-weight: bolder }
     width: 100%;
     max-width: 1400px;
 }
+.head-img{
+    width: 100%;
+    max-width: 1400px;
+}
 .img-content{
     width: 90%;
     max-width: 1400px;
